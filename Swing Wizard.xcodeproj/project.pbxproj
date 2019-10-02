@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA1287F4DF5558F14753EF5 /* Pods_Swing_Wizard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B24C56C8D863B28F53B00 /* Pods_Swing_Wizard.framework */; };
+		1E9B4EFDDC2B0C79662999F3 /* Pods_Swing_WizardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1EEB537CC7843432F96CB8 /* Pods_Swing_WizardUITests.framework */; };
+		5E2A667722492A9B0045B20A /* Swing Wizard Launch Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A667622492A9B0045B20A /* Swing Wizard Launch Logo.png */; };
 		5E32E4162213284D0081F082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E4152213284D0081F082 /* AppDelegate.swift */; };
 		5E32E4182213284D0081F082 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E4172213284D0081F082 /* MasterViewController.swift */; };
 		5E32E41A2213284D0081F082 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E4192213284D0081F082 /* DetailViewController.swift */; };
@@ -15,6 +18,11 @@
 		5E32E422221328520081F082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E32E420221328520081F082 /* LaunchScreen.storyboard */; };
 		5E32E42D221328520081F082 /* masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E42C221328520081F082 /* masterTests.swift */; };
 		5E32E438221328520081F082 /* masterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E437221328520081F082 /* masterUITests.swift */; };
+		5E32E44A2213838A0081F082 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E4492213838A0081F082 /* Storage.swift */; };
+		5E32E44C22138A9B0081F082 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E44B22138A9B0081F082 /* Item.swift */; };
+		5E32E450221392050081F082 /* UITableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E44F221392050081F082 /* UITableCell.swift */; };
+		5E32E452221480A90081F082 /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32E451221480A90081F082 /* AddItem.swift */; };
+		D3F45494199EFD91AAC13FDB /* Pods_Swing_WizardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93FB76F1AC66733CBFEFA2F /* Pods_Swing_WizardTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E32E4122213284D0081F082 /* master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = master.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B24C56C8D863B28F53B00 /* Pods_Swing_Wizard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swing_Wizard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1EEB537CC7843432F96CB8 /* Pods_Swing_WizardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swing_WizardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D9B4E6DC4835575B4DBBE9 /* Pods-Swing WizardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swing WizardUITests.debug.xcconfig"; path = "Target Support Files/Pods-Swing WizardUITests/Pods-Swing WizardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E2A667622492A9B0045B20A /* Swing Wizard Launch Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swing Wizard Launch Logo.png"; sourceTree = "<group>"; };
+		5E32E4122213284D0081F082 /* Swing Wizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swing Wizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32E4152213284D0081F082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E32E4172213284D0081F082 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		5E32E4192213284D0081F082 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +55,22 @@
 		5E32E41E221328520081F082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E32E421221328520081F082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E32E423221328520081F082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E32E428221328520081F082 /* masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E32E428221328520081F082 /* Swing WizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swing WizardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32E42C221328520081F082 /* masterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masterTests.swift; sourceTree = "<group>"; };
 		5E32E42E221328520081F082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E32E433221328520081F082 /* masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E32E433221328520081F082 /* Swing WizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swing WizardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32E437221328520081F082 /* masterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masterUITests.swift; sourceTree = "<group>"; };
 		5E32E439221328520081F082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E32E4492213838A0081F082 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		5E32E44B22138A9B0081F082 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5E32E44F221392050081F082 /* UITableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableCell.swift; sourceTree = "<group>"; };
+		5E32E451221480A90081F082 /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		7C1645DB8AB27752D3C59BF9 /* Pods-Swing WizardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swing WizardUITests.release.xcconfig"; path = "Target Support Files/Pods-Swing WizardUITests/Pods-Swing WizardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A081AAFED84ED069899D232D /* Pods-Swing WizardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swing WizardTests.release.xcconfig"; path = "Target Support Files/Pods-Swing WizardTests/Pods-Swing WizardTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACB52AB6BEAE10D411441F2E /* Pods-Swing WizardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swing WizardTests.debug.xcconfig"; path = "Target Support Files/Pods-Swing WizardTests/Pods-Swing WizardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B93FB76F1AC66733CBFEFA2F /* Pods_Swing_WizardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swing_WizardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E0195CFBBFFA51CF24FC16 /* Pods-Swing Wizard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swing Wizard.release.xcconfig"; path = "Target Support Files/Pods-Swing Wizard/Pods-Swing Wizard.release.xcconfig"; sourceTree = "<group>"; };
+		EB40533246795C294E8167BA /* Pods-Swing Wizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swing Wizard.debug.xcconfig"; path = "Target Support Files/Pods-Swing Wizard/Pods-Swing Wizard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA1287F4DF5558F14753EF5 /* Pods_Swing_Wizard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F45494199EFD91AAC13FDB /* Pods_Swing_WizardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9B4EFDDC2B0C79662999F3 /* Pods_Swing_WizardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,15 +108,18 @@
 				5E32E42B221328520081F082 /* masterTests */,
 				5E32E436221328520081F082 /* masterUITests */,
 				5E32E4132213284D0081F082 /* Products */,
+				5E2A667622492A9B0045B20A /* Swing Wizard Launch Logo.png */,
+				EA106D1A226F1BB51BA2342D /* Pods */,
+				BC1D51DA9F94664C56C5A5AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5E32E4132213284D0081F082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E32E4122213284D0081F082 /* master.app */,
-				5E32E428221328520081F082 /* masterTests.xctest */,
-				5E32E433221328520081F082 /* masterUITests.xctest */,
+				5E32E4122213284D0081F082 /* Swing Wizard.app */,
+				5E32E428221328520081F082 /* Swing WizardTests.xctest */,
+				5E32E433221328520081F082 /* Swing WizardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,13 +129,18 @@
 			children = (
 				5E32E4152213284D0081F082 /* AppDelegate.swift */,
 				5E32E4172213284D0081F082 /* MasterViewController.swift */,
+				5E32E451221480A90081F082 /* AddItem.swift */,
 				5E32E4192213284D0081F082 /* DetailViewController.swift */,
+				5E32E44B22138A9B0081F082 /* Item.swift */,
 				5E32E41B2213284D0081F082 /* Main.storyboard */,
 				5E32E41E221328520081F082 /* Assets.xcassets */,
 				5E32E420221328520081F082 /* LaunchScreen.storyboard */,
 				5E32E423221328520081F082 /* Info.plist */,
+				5E32E4492213838A0081F082 /* Storage.swift */,
+				5E32E44F221392050081F082 /* UITableCell.swift */,
 			);
-			path = master;
+			name = master;
+			path = "Swing Wizard";
 			sourceTree = "<group>";
 		};
 		5E32E42B221328520081F082 /* masterTests */ = {
@@ -128,30 +161,56 @@
 			path = masterUITests;
 			sourceTree = "<group>";
 		};
+		BC1D51DA9F94664C56C5A5AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044B24C56C8D863B28F53B00 /* Pods_Swing_Wizard.framework */,
+				B93FB76F1AC66733CBFEFA2F /* Pods_Swing_WizardTests.framework */,
+				0B1EEB537CC7843432F96CB8 /* Pods_Swing_WizardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA106D1A226F1BB51BA2342D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB40533246795C294E8167BA /* Pods-Swing Wizard.debug.xcconfig */,
+				C9E0195CFBBFFA51CF24FC16 /* Pods-Swing Wizard.release.xcconfig */,
+				ACB52AB6BEAE10D411441F2E /* Pods-Swing WizardTests.debug.xcconfig */,
+				A081AAFED84ED069899D232D /* Pods-Swing WizardTests.release.xcconfig */,
+				55D9B4E6DC4835575B4DBBE9 /* Pods-Swing WizardUITests.debug.xcconfig */,
+				7C1645DB8AB27752D3C59BF9 /* Pods-Swing WizardUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E32E4112213284D0081F082 /* master */ = {
+		5E32E4112213284D0081F082 /* Swing Wizard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E32E43C221328520081F082 /* Build configuration list for PBXNativeTarget "master" */;
+			buildConfigurationList = 5E32E43C221328520081F082 /* Build configuration list for PBXNativeTarget "Swing Wizard" */;
 			buildPhases = (
+				A77993F04ABBDE7F52697818 /* [CP] Check Pods Manifest.lock */,
 				5E32E40E2213284D0081F082 /* Sources */,
 				5E32E40F2213284D0081F082 /* Frameworks */,
 				5E32E4102213284D0081F082 /* Resources */,
+				E67F8D1629076A36B4DF2AA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = master;
+			name = "Swing Wizard";
 			productName = master;
-			productReference = 5E32E4122213284D0081F082 /* master.app */;
+			productReference = 5E32E4122213284D0081F082 /* Swing Wizard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E32E427221328520081F082 /* masterTests */ = {
+		5E32E427221328520081F082 /* Swing WizardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E32E43F221328520081F082 /* Build configuration list for PBXNativeTarget "masterTests" */;
+			buildConfigurationList = 5E32E43F221328520081F082 /* Build configuration list for PBXNativeTarget "Swing WizardTests" */;
 			buildPhases = (
+				337D74B5E84D2F967379F689 /* [CP] Check Pods Manifest.lock */,
 				5E32E424221328520081F082 /* Sources */,
 				5E32E425221328520081F082 /* Frameworks */,
 				5E32E426221328520081F082 /* Resources */,
@@ -161,15 +220,16 @@
 			dependencies = (
 				5E32E42A221328520081F082 /* PBXTargetDependency */,
 			);
-			name = masterTests;
+			name = "Swing WizardTests";
 			productName = masterTests;
-			productReference = 5E32E428221328520081F082 /* masterTests.xctest */;
+			productReference = 5E32E428221328520081F082 /* Swing WizardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E32E432221328520081F082 /* masterUITests */ = {
+		5E32E432221328520081F082 /* Swing WizardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E32E442221328520081F082 /* Build configuration list for PBXNativeTarget "masterUITests" */;
+			buildConfigurationList = 5E32E442221328520081F082 /* Build configuration list for PBXNativeTarget "Swing WizardUITests" */;
 			buildPhases = (
+				9FE1F8CD948C7275E6CD0BD2 /* [CP] Check Pods Manifest.lock */,
 				5E32E42F221328520081F082 /* Sources */,
 				5E32E430221328520081F082 /* Frameworks */,
 				5E32E431221328520081F082 /* Resources */,
@@ -179,9 +239,9 @@
 			dependencies = (
 				5E32E435221328520081F082 /* PBXTargetDependency */,
 			);
-			name = masterUITests;
+			name = "Swing WizardUITests";
 			productName = masterUITests;
-			productReference = 5E32E433221328520081F082 /* masterUITests.xctest */;
+			productReference = 5E32E433221328520081F082 /* Swing WizardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E32E40D2213284D0081F082 /* Build configuration list for PBXProject "master" */;
+			buildConfigurationList = 5E32E40D2213284D0081F082 /* Build configuration list for PBXProject "Swing Wizard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E32E4112213284D0081F082 /* master */,
-				5E32E427221328520081F082 /* masterTests */,
-				5E32E432221328520081F082 /* masterUITests */,
+				5E32E4112213284D0081F082 /* Swing Wizard */,
+				5E32E427221328520081F082 /* Swing WizardTests */,
+				5E32E432221328520081F082 /* Swing WizardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2A667722492A9B0045B20A /* Swing Wizard Launch Logo.png in Resources */,
 				5E32E422221328520081F082 /* LaunchScreen.storyboard in Resources */,
 				5E32E41F221328520081F082 /* Assets.xcassets in Resources */,
 				5E32E41D2213284D0081F082 /* Main.storyboard in Resources */,
@@ -254,14 +315,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		337D74B5E84D2F967379F689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swing WizardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE1F8CD948C7275E6CD0BD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swing WizardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77993F04ABBDE7F52697818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swing Wizard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67F8D1629076A36B4DF2AA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swing Wizard/Pods-Swing Wizard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubePlayer_in_WKWebView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swing Wizard/Pods-Swing Wizard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E32E40E2213284D0081F082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E32E44C22138A9B0081F082 /* Item.swift in Sources */,
 				5E32E41A2213284D0081F082 /* DetailViewController.swift in Sources */,
 				5E32E4182213284D0081F082 /* MasterViewController.swift in Sources */,
 				5E32E4162213284D0081F082 /* AppDelegate.swift in Sources */,
+				5E32E452221480A90081F082 /* AddItem.swift in Sources */,
+				5E32E450221392050081F082 /* UITableCell.swift in Sources */,
+				5E32E44A2213838A0081F082 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +442,12 @@
 /* Begin PBXTargetDependency section */
 		5E32E42A221328520081F082 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E32E4112213284D0081F082 /* master */;
+			target = 5E32E4112213284D0081F082 /* Swing Wizard */;
 			targetProxy = 5E32E429221328520081F082 /* PBXContainerItemProxy */;
 		};
 		5E32E435221328520081F082 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E32E4112213284D0081F082 /* master */;
+			target = 5E32E4112213284D0081F082 /* Swing Wizard */;
 			targetProxy = 5E32E434221328520081F082 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,15 +590,17 @@
 		};
 		5E32E43D221328520081F082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB40533246795C294E8167BA /* Pods-Swing Wizard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = master/Info.plist;
+				DEVELOPMENT_TEAM = L2J5UCAQ6Z;
+				INFOPLIST_FILE = "Swing Wizard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.master;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swing-Wizard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,15 +609,17 @@
 		};
 		5E32E43E221328520081F082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E0195CFBBFFA51CF24FC16 /* Pods-Swing Wizard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = master/Info.plist;
+				DEVELOPMENT_TEAM = L2J5UCAQ6Z;
+				INFOPLIST_FILE = "Swing Wizard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.master;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swing-Wizard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +628,7 @@
 		};
 		5E32E440221328520081F082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB52AB6BEAE10D411441F2E /* Pods-Swing WizardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,12 +643,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/master.app/master";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swing Wizard.app/Swing Wizard";
 			};
 			name = Debug;
 		};
 		5E32E441221328520081F082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A081AAFED84ED069899D232D /* Pods-Swing WizardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,12 +664,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/master.app/master";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swing Wizard.app/Swing Wizard";
 			};
 			name = Release;
 		};
 		5E32E443221328520081F082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D9B4E6DC4835575B4DBBE9 /* Pods-Swing WizardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +690,7 @@
 		};
 		5E32E444221328520081F082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1645DB8AB27752D3C59BF9 /* Pods-Swing WizardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,7 +711,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E32E40D2213284D0081F082 /* Build configuration list for PBXProject "master" */ = {
+		5E32E40D2213284D0081F082 /* Build configuration list for PBXProject "Swing Wizard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E32E43A221328520081F082 /* Debug */,
@@ -556,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E32E43C221328520081F082 /* Build configuration list for PBXNativeTarget "master" */ = {
+		5E32E43C221328520081F082 /* Build configuration list for PBXNativeTarget "Swing Wizard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E32E43D221328520081F082 /* Debug */,
@@ -565,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E32E43F221328520081F082 /* Build configuration list for PBXNativeTarget "masterTests" */ = {
+		5E32E43F221328520081F082 /* Build configuration list for PBXNativeTarget "Swing WizardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E32E440221328520081F082 /* Debug */,
@@ -574,7 +738,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E32E442221328520081F082 /* Build configuration list for PBXNativeTarget "masterUITests" */ = {
+		5E32E442221328520081F082 /* Build configuration list for PBXNativeTarget "Swing WizardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E32E443221328520081F082 /* Debug */,
