@@ -1,0 +1,6 @@
+framework module Pods_Swing_WizardTests {
+  umbrella header "Pods-Swing WizardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
